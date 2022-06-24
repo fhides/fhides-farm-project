@@ -1,27 +1,96 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="./style.css">
-    <script src=".js"></script>
-    <title>fhides mkulima farm; Affordable farm produce</title>
-    <div id="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-</div>
-<ul class="text-center nav-honey">
-    <li>
-        <a href="index.html" class="active ">Home</a>
-    </li>
-    <li>
-        <a class="scroll" href="#about">About us</a>
-    </li>
-    <li>
-        <a class="scroll" href="#produce"> our products</a>
-    </li>
-    <li>
-        <a class="scroll" href="#contact">Contact us</a>
-    </li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- nav bar -->
+      <nav>
+        <ul class="main-nav">
+          <li>
+            <a class="nav-links" href="#">Home</a>
+          </li>
+          <li>
+            <a class="nav-links" href="#">Products</a>
+          </li>
+          <li>
+            <a class="nav-links" href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="title">
+        <h1>Fhides Mkulima Farm</h1>
+        <p>We offer affordable farm produce</p>
+      </article>
+
+      <!-- produce section begin -->
+      <ul class="images" id="produce">
+        <div class="card">
+          <div class="img">
+            <figure>
+              <img
+                src="./assets/images/pexels-cottonbro-4911785.jpg"
+                alt="products"
+              />
+              <figcaption>Fresh Eggs</figcaption>
+            </figure>
+          </div>
+          <button id="order" class="btn-pry">Order now</button>
+        </div>
+        <div class="card">
+          <div class="img">
+            <figure>
+              <img
+                src="./assets/images/pexels-pixabay-207085.jpg"
+                alt="products"
+              />
+              <figcaption>Fresh Fruits</figcaption>
+            </figure>
+          </div>
+          <button id="order" class="btn-pry">Order now</button>
+        </div>
+        <div class="card">
+          <div class="img">
+            <figure>
+              <img
+                src="./assets/images/pexels-roman-odintsov-5840409.jpg"
+                alt="products"
+              />
+              <figcaption>Dairy Produce</figcaption>
+            </figure>
+          </div>
+          <button id="order" class="btn-pry">Order now</button>
+        </div>
+        <div class="card">
+          <div class="img">
+            <figure>
+              <img src="./assets/images/download.jpeg" alt="products" />
+              <figcaption>Farm Meat</figcaption>
+            </figure>
+          </div>
+          <button id="order" class="btn-pry">Order now</button>
+        </div>
+      </ul>
+      <!-- place order form -->
+      <form action="" id="order-form">
+        <button id="close">X</button>
+        <h3>Order now</h3>
+        <label for="email">Email</label>
+        <input id="email" class="input" type="email" placeholder="email" />
+        <label for="item">Item</label>
+        <input class="input" type="text" id="item" placeholder="item" />
+        <label for="qty">Quantity</label>
+        <input class="input" type="text" placeholder="enter quantity" />
+        <label for="location">Location</label>
+        <input class="input" type="text" placeholder="your location" />
+        <input type="submit" value="Place Order" class="submit" />
+      </form>
+      <!-- footer section begin -->
+    </main>
+  </body>
+</html>
