@@ -164,7 +164,20 @@ summary{
 }
 /******************************************************/
 /*order form*/
-
+#order-form{
+    background-color: var(--vivid-tangerine);
+    width: 30%;
+    height: 23rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.2rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: none;
     
 }
 .input{
