@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     let email=document.getElementById('email').value;
     
     //close event
-    close.addEventListener('click',()=>{
         form.style.display="none"
     })
 
