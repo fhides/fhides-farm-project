@@ -51,7 +51,18 @@ function appendCard(response) {
     response.hints.forEach((items) => {
       let list = document.createElement("li");
   
-      
+      list.innerHTML = `
+      <div class=card>
+      <div class="img">
+            <figure>
+        <img src=${items.image} alt="products">
+            <figcaption>
+            ${items.label}
+            </figcaption>
+         </figure>
+        </div>
+        <button id="order" class="btn-pry">Order now</button>
+      </div>`
       
       produce.appendChild(list);
     });
