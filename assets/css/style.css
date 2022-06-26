@@ -203,7 +203,14 @@ summary{
     background-color: var(--medium-aquamarine);
     color: #fff;
 }
-
+#close{
+    position: absolute;
+    right: 0.9rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    border: none;
+    border-radius: 50%;
+}
 #close:hover{
     background-color: var(--medium-aquamarine);
     color: #fff;
