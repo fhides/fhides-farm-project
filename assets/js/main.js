@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     fetchData()
     //call dom elements
     let form =document.getElementById('order-form');
+    let orderBtn=document.querySelectorAll('.btn-pry');
     let close=document.getElementById('close');
     let email=document.getElementById('email').value;
     
