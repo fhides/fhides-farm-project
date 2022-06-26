@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 //fetch data from api
 function fetchData(){
 const options = {
-	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '99b1489bc1mshe4869d13ccb8365p164db9jsn74e1339350c1',
 		'X-RapidAPI-Host': 'edamam-food-and-grocery-database.p.rapidapi.com'
