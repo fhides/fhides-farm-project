@@ -8,16 +8,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     let email=document.getElementById('email').value;
     
     //close event
-    close.addEventListener('click',()=>{
-        form.style.display="none"
-    })
-
-    //order button event
-    orderBtn.forEach(btn => {
-
-    btn.addEventListener('click', event => {
-        form.style.display="block";
-    });
+    );
     form.addEventListener('submit',()=>{
         //check if eamilfield is empty
         if(email==""){
