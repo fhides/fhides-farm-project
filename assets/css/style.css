@@ -134,7 +134,7 @@ footer{
     height: 20%;
     background-color: grey;
     text-align: center;
-    padding-top: 0.3rem;
+    padding-top: 0.5rem;
 }
 .footer-nav{
     display: flex;
